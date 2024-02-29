@@ -1,0 +1,8 @@
+[90m2024-02-19T11:20:53.160Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m app is not defined in browserstack-service config, skipping ...
+[90m2024-02-19T11:20:53.162Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending launch start event
+[90m2024-02-19T11:20:53.171Z[39m [31mERROR[39m [97m@wdio/browserstack-service[39m Data upload to BrowserStack Test Observability failed due to RequestError: Expected value which is `string`, received value of type `undefined`.
+[90m2024-02-19T11:20:53.173Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m browserstackLocal is not enabled - skipping...
+[90m2024-02-19T11:20:56.152Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Inside OnComplete hook..
+[90m2024-02-19T11:20:56.153Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending stop launch event
+[90m2024-02-19T11:20:56.154Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m If facing any issues, please contact BrowserStack support with the Build Run Id - 2c2ec96b-3ec6-422d-914d-f2b1f4e09a35
+[90m2024-02-19T11:20:56.155Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Response - undefined

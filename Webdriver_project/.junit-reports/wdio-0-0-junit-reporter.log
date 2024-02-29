@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="1" failures="0" errors="0" skipped="0">
+  <testsuite name="login" timestamp="2024-02-28T21:24:32" time="13.209" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="login"/>
+      <property name="capabilities" value="chrome.122_0_6261_69.windows"/>
+      <property name="file" value="file:///F:/Webdriver/Webdriver_project/test/specs/login.js"/>
+    </properties>
+    <testcase classname="chrome.122_0_6261_69.windows.login" name="tests login" time="13.207">
+      <system-out><![CDATA[
+COMMAND: POST /session/f0e034210e1f473851cdba804e90355c/window/rect - {"x":null,"y":null,"width":790,"height":607}
+RESULT: {"x":null,"y":null,"width":790,"height":607}
+COMMAND: POST /session/f0e034210e1f473851cdba804e90355c/url - {"url":"https://the-internet.herokuapp.com/login"}
+RESULT: {"url":"https://the-internet.herokuapp.com/login"}
+COMMAND: GET /session/f0e034210e1f473851cdba804e90355c/url - {}
+RESULT: {}
+COMMAND: POST /session/f0e034210e1f473851cdba804e90355c/element - {"using":"css selector","value":"#username"}
+RESULT: {"using":"css selector","value":"#username"}
+COMMAND: POST /session/f0e034210e1f473851cdba804e90355c/element/CD952F8C0A83E9AA94716FE357F58F30_element_4/click - {}
+RESULT: {}
+COMMAND: POST /session/f0e034210e1f473851cdba804e90355c/element - {"using":"css selector","value":"#username"}
+RESULT: {"using":"css selector","value":"#username"}
+COMMAND: POST /session/f0e034210e1f473851cdba804e90355c/element/CD952F8C0A83E9AA94716FE357F58F30_element_4/clear - {}
+RESULT: {}
+COMMAND: POST /session/f0e034210e1f473851cdba804e90355c/element/CD952F8C0A83E9AA94716FE357F58F30_element_4/value - {"text":"tomsmith"}
+RESULT: {"text":"tomsmith"}
+COMMAND: POST /session/f0e034210e1f473851cdba804e90355c/element - {"using":"xpath","value":"//*[@id=\"login\"]/div[2]/div"}
+RESULT: {"using":"xpath","value":"//*[@id=\"login\"]/div[2]/div"}
+COMMAND: POST /session/f0e034210e1f473851cdba804e90355c/element/CD952F8C0A83E9AA94716FE357F58F30_element_10/click - {}
+RESULT: {}
+COMMAND: POST /session/f0e034210e1f473851cdba804e90355c/element - {"using":"css selector","value":"#password"}
+RESULT: {"using":"css selector","value":"#password"}
+COMMAND: POST /session/f0e034210e1f473851cdba804e90355c/element/CD952F8C0A83E9AA94716FE357F58F30_element_5/click - {}
+RESULT: {}
+COMMAND: POST /session/f0e034210e1f473851cdba804e90355c/element - {"using":"css selector","value":"#password"}
+RESULT: {"using":"css selector","value":"#password"}
+COMMAND: POST /session/f0e034210e1f473851cdba804e90355c/element/CD952F8C0A83E9AA94716FE357F58F30_element_5/clear - {}
+RESULT: {}
+COMMAND: POST /session/f0e034210e1f473851cdba804e90355c/element/CD952F8C0A83E9AA94716FE357F58F30_element_5/value - {"text":"S"}
+RESULT: {"text":"S"}
+COMMAND: POST /session/f0e034210e1f473851cdba804e90355c/element - {"using":"css selector","value":"#password"}
+RESULT: {"using":"css selector","value":"#password"}
+COMMAND: POST /session/f0e034210e1f473851cdba804e90355c/element/CD952F8C0A83E9AA94716FE357F58F30_element_5/clear - {}
+RESULT: {}
+COMMAND: POST /session/f0e034210e1f473851cdba804e90355c/element/CD952F8C0A83E9AA94716FE357F58F30_element_5/value - {"text":""}
+RESULT: {"text":""}
+COMMAND: POST /session/f0e034210e1f473851cdba804e90355c/element - {"using":"xpath","value":"//*[@id=\"content\"]/div/h4/em[2]"}
+RESULT: {"using":"xpath","value":"//*[@id=\"content\"]/div/h4/em[2]"}
+COMMAND: POST /session/f0e034210e1f473851cdba804e90355c/element/CD952F8C0A83E9AA94716FE357F58F30_element_13/click - {}
+RESULT: {}
+COMMAND: POST /session/f0e034210e1f473851cdba804e90355c/actions - {"actions":[{"type":"key","id":"keyboard","actions":[{"type":"keyDown","value":""}]}]}
+RESULT: {"actions":[{"type":"key","id":"keyboard","actions":[{"type":"keyDown","value":""}]}]}
+COMMAND: POST /session/f0e034210e1f473851cdba804e90355c/actions - {"actions":[{"type":"key","id":"keyboard","actions":[{"type":"keyUp","value":""}]}]}
+RESULT: {"actions":[{"type":"key","id":"keyboard","actions":[{"type":"keyUp","value":""}]}]}
+COMMAND: POST /session/f0e034210e1f473851cdba804e90355c/element - {"using":"xpath","value":"//*[@id=\"login\"]/div[2]/div"}
+RESULT: {"using":"xpath","value":"//*[@id=\"login\"]/div[2]/div"}
+COMMAND: POST /session/f0e034210e1f473851cdba804e90355c/element/CD952F8C0A83E9AA94716FE357F58F30_element_10/click - {}
+RESULT: {}
+COMMAND: POST /session/f0e034210e1f473851cdba804e90355c/element - {"using":"css selector","value":"#password"}
+RESULT: {"using":"css selector","value":"#password"}
+COMMAND: POST /session/f0e034210e1f473851cdba804e90355c/element/CD952F8C0A83E9AA94716FE357F58F30_element_5/click - {}
+RESULT: {}
+COMMAND: POST /session/f0e034210e1f473851cdba804e90355c/element - {"using":"css selector","value":"#password"}
+RESULT: {"using":"css selector","value":"#password"}
+COMMAND: POST /session/f0e034210e1f473851cdba804e90355c/element/CD952F8C0A83E9AA94716FE357F58F30_element_5/clear - {}
+RESULT: {}
+COMMAND: POST /session/f0e034210e1f473851cdba804e90355c/element/CD952F8C0A83E9AA94716FE357F58F30_element_5/value - {"text":"SuperSecretPassword!"}
+RESULT: {"text":"SuperSecretPassword!"}
+COMMAND: POST /session/f0e034210e1f473851cdba804e90355c/actions - {"actions":[{"type":"key","id":"keyboard","actions":[{"type":"keyDown","value":""}]}]}
+RESULT: {"actions":[{"type":"key","id":"keyboard","actions":[{"type":"keyDown","value":""}]}]}
+COMMAND: POST /session/f0e034210e1f473851cdba804e90355c/actions - {"actions":[{"type":"key","id":"keyboard","actions":[{"type":"keyUp","value":""}]}]}
+RESULT: {"actions":[{"type":"key","id":"keyboard","actions":[{"type":"keyUp","value":""}]}]}
+COMMAND: DELETE /session/f0e034210e1f473851cdba804e90355c - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>
