@@ -10,7 +10,6 @@ describe('Demo Tests', function () {
         // await $('[name="btnK"]').click()
 
         browser.keys('Enter')
-
         // browser.pause(4000)
 
     })
